@@ -1,0 +1,41 @@
+/*
+=========================
+Image and Header classes
+=========================
+*/
+.img-container {
+	height: 350px;
+	overflow: hidden;
+}
+.img-container img {
+	position: relative;
+	top: -100px;
+}
+.header h1 {
+	background-color: #000;
+	color: #FFF;
+	line-height: 2em;
+}
+
+/*
+================================
+Body and modal classes
+================================
+*/
+.list-group-item {
+	border: 0px 0px 1px 0px;
+}
+.img-thumbnail {
+	border: none;
+}
+.modal-header {
+	background-color: #000;
+	color: #FFF;
+}
+.close {
+	color: #FFF;
+}
+.p-active {
+	background-color: #CCC;
+	color: #000;
+}
